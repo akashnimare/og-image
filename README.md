@@ -57,9 +57,9 @@ You'll want to fork this repository and deploy your own image generator.
 2. Clone the repo to your local machine with `git clone URL_OF_FORKED_REPO_HERE`
 3. Change directory with `cd og-image`
 4. Make changes by swapping out images, changing colors, etc (see [contributing](https://github.com/zeit/og-image/blob/master/CONTRIBUTING.md) for more info)
-5. Run locally with `now dev` and visit [localhost:3000](http://localhost:3000)  (if nothing happens, run `npm install -g now`)
-6. Deploy to the cloud by running `now` and you'll get a unique URL
-7. Setup [GitHub](https://zeit.co/github) to autodeply on push
+5. Run locally with `vercel dev` and visit [localhost:3000](http://localhost:3000)  (if nothing happens, run `npm install -g vercel`)
+6. Deploy to the cloud by running `vercel` and you'll get a unique URL
+7. Setup [GitHub](https://zeit.co/github) to autodeploy on push
 
 Alternatively, you can do a one-click to deploy with the button below.
 
